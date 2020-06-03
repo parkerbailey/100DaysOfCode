@@ -14,7 +14,7 @@ The log of my #100DaysOfCode challenge. Started on [May 30, Saturday, 2020].
 
 **Thoughts:** Today was somewhat slow and hard to focus with everything else going on, but I still got it done. Ended up procrastinating on some schoolwork to code instead. 
 
-### R1D4
+### R1D3
 **Today's Progress:** Setup a working RAID-5 NAS on the raspberry pi today and began work on a shell script to track information about the RAID. Also learned how to create symbolic links. 
 
 **Thoughts:** I had no time to be doing this today. I had more important things I should've been doing to be completely honest. I guess that means I'm addicted to coding in a sense? Sometimes my stubbornness overcomes my internal sense of responsibility when it comes to something I'm passionate about. Still trying to decide if that's a good things or not. 
