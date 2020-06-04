@@ -1,4 +1,8 @@
 #!/bin/bash
+# This script is not entirely my own, but the original author did not give their name
+# I have modified this script to suit my purposes as an MOTD display script
+# Thank you to whoever originally built this script, your code is nice
+#  - Parker Bailey
 
 sudo clear
 
