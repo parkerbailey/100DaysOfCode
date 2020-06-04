@@ -143,7 +143,7 @@ function metrics {
 	spare=$(sudo mdadm --detail /dev/md0 | grep "Spare" | awk {'print $4'})
 	rstatus=$(sudo mdadm --detail /dev/md0 | grep "Rebuild Status" | awk {'print $4'})
 	displayMessage 'RAID...............:' "State: ${state}"
-	displayMessage '...................:' "Active: ${active}, Working: ${working}, Failed: ${failed}, Spare: ${spare}"
+	displayMessage 'RAID...............:' "Active: ${active}, Working: ${working}, Failed: ${failed}, Spare: ${spare}"
 	if [ $active != $working ]; then
 		displayMessage '...................:' "Rebuild Status: ${rstatus}"
 	fi
