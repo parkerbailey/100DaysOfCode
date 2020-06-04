@@ -18,3 +18,8 @@ The log of my #100DaysOfCode challenge. Started on [May 30, Saturday, 2020].
 **Today's Progress:** Setup a working RAID-5 NAS on the raspberry pi today and began work on a shell script to track information about the RAID. Also learned how to create symbolic links. 
 
 **Thoughts:** I had no time to be doing this today. I had more important things I should've been doing to be completely honest. I guess that means I'm addicted to coding in a sense? Sometimes my stubbornness overcomes my internal sense of responsibility when it comes to something I'm passionate about. Still trying to decide if that's a good things or not. 
+
+### R1D4
+**Today's Progress:** Today I learned a bit more javascipt, finally got past the card game example. Figured out how to run javascript in visual studio code. 
+
+**Thoughts:** I spent far too much time on that card game example for just forgetting a space. It can be somewhat madding how picky the code can be at times. I got stuck on another example too. I still don't totally understand why it has to be bracket notation sometimes instead of dot? Maybe I should just always do bracket to be safe.
