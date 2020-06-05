@@ -23,3 +23,8 @@ The log of my #100DaysOfCode challenge. Started on [May 30, Saturday, 2020].
 **Today's Progress:** Today I learned a bit more javascipt, finally got past the card game example. Figured out how to run javascript in visual studio code. 
 
 **Thoughts:** I spent far too much time on that card game example for just forgetting a space. It can be somewhat madding how picky the code can be at times. I got stuck on another example too. I still don't totally understand why it has to be bracket notation sometimes instead of dot? Maybe I should just always do bracket to be safe.
+
+### R1D4
+**Today's Progress:**
+
+**Thoughts:**
