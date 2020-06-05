@@ -5,6 +5,7 @@
 #  - Parker Bailey
 
 sudo clear
+# clear
 
 #
 # Test whether bash supports arrays.
