@@ -1,6 +1,6 @@
 # #100DaysOfCode Log - Round 1 - Parker Bailey
 
-The log of my #100DaysOfCode challenge. Started on [May 30, Saturday, 2020].
+The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 
 ## Log
 
@@ -24,7 +24,9 @@ The log of my #100DaysOfCode challenge. Started on [May 30, Saturday, 2020].
 
 **Thoughts:** I spent far too much time on that card game example for just forgetting a space. It can be somewhat madding how picky the code can be at times. I got stuck on another example too. I still don't totally understand why it has to be bracket notation sometimes instead of dot? Maybe I should just always do bracket to be safe.
 
-### R1D4
-**Today's Progress:**
+### R1D5
+**Today's Progress:** Today I learned a bit more bash scripting and wrote a simple backup script. It works well. I added it to a cron job. 
 
-**Thoughts:**
+**Thoughts:** Today was a chill day. I was pretty motivated and things were good. Got the backup script done which I've been wanting to do for a while. Now I have things backing up to the 2TB RAID-5 I had set up earlier. It's nice when things just work. 
+
+### R1D6
