@@ -1,8 +1,7 @@
 #!/bin/bash
 
 dest=/mnt/raid/backups/			# set destination for backup directory creation
-host=69.28.47.153			# set remote host ip
-port=12345				# set remote host port
+host=192.168.86.74			# set remote host ip
 
 # check if destination exists
 if [ ! -d $dest ]; then
@@ -14,7 +13,7 @@ if [ ! -d $dest ]; then
 	ping -c 1 $host 
 	if [ $? -eq 0 ]; then
 		echo "Host is online. Initiating connection."
-		
+		ssh parker@$host
 		exit 1
 	fi
 fi
