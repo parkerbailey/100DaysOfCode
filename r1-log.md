@@ -30,3 +30,6 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Thoughts:** Today was a chill day. I was pretty motivated and things were good. Got the backup script done which I've been wanting to do for a while. Now I have things backing up to the 2TB RAID-5 I had set up earlier. It's nice when things just work. 
 
 ### R1D6
+**Today's Progress:** Added more functionality to the backup script. It can now determine if it is running internally on the server or externally on a client machine. It can also verify if the server is up. 
+
+**Thoughts:** Bash is a really neat scripting language, though somewhat unorthodox in terms of conditional statements and such. I enjoy it's immediate usefulness and functionality. 
