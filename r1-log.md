@@ -33,3 +33,8 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Today's Progress:** Added more functionality to the backup script. It can now determine if it is running internally on the server or externally on a client machine. It can also verify if the server is up. 
 
 **Thoughts:** Bash is a really neat scripting language, though somewhat unorthodox in terms of conditional statements and such. I enjoy it's immediate usefulness and functionality. 
+
+### R1D7
+**Today's Progress:** Attempted to get some files backup up to the RAID from my Windows machine. So far it has been excruciatingly slow so I've speant today debugging that and trying to find the bottleneck in my network.
+
+**Thoughts:** There really should be a tool for searching and identifying network file transfer bottlenecks. Maybe there is. If so I am either unaware or unable to afford it. 
