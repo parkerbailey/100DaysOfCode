@@ -33,3 +33,9 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Today's Progress:** Added more functionality to the backup script. It can now determine if it is running internally on the server or externally on a client machine. It can also verify if the server is up. 
 
 **Thoughts:** Bash is a really neat scripting language, though somewhat unorthodox in terms of conditional statements and such. I enjoy it's immediate usefulness and functionality. 
+
+### R1D7
+**Today's ProgressL** Learned how to setup and run the rsync daemon for file transfers over the network and added in a bit to the backup script for creating backups to the raid over the network automatically. 
+
+
+**Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good. 
