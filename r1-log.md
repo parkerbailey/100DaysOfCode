@@ -43,3 +43,8 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Today's Progress:** Learned how to setup and run the rsync daemon for file transfers over the network and added in a bit to the backup script for creating backups to the raid over the network automatically.
 
 **Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good.
+
+### R1D9
+**Today's Progress:**
+
+**Thoughts:**

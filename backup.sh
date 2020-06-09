@@ -15,6 +15,22 @@ mod=raid				# set rsync daemon module name
 #		* check if client backup directory exists (create if no)
 #		* backup client (rsync daemon pull)
 
+# check if parent directory exists
+if [ ! -d $dest ]; then
+        echo "Parent directory not found on local machine. Ensure volume is properly mounted."
+        exit 1
+else
+        # check if child directory exists
+        if [ ! -d $dest/$HOSTNAME ]; then
+                echo "Creating child directory $dest/$HOSTNAME. . ."
+                mkdir -v $dest/$HOSTNAME
+        else
+                echo "Initializing server backup. . ."
+                sudo rsync -avzh --stats --progress {/etc,/var,/home} $dest/$HOSTNAME
+        fi
+
+fi
+
 ## Old Code ##
 # check if destination exists
 if [ ! -d $dest ]; then
