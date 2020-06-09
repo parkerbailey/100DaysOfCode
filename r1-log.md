@@ -35,7 +35,11 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Thoughts:** Bash is a really neat scripting language, though somewhat unorthodox in terms of conditional statements and such. I enjoy it's immediate usefulness and functionality. 
 
 ### R1D7
-**Today's ProgressL** Learned how to setup and run the rsync daemon for file transfers over the network and added in a bit to the backup script for creating backups to the raid over the network automatically. 
+**Today's Progress:** Attempted to get some files backup up to the RAID from my Windows machine. So far it has been excruciatingly slow so I've speant today debugging that and trying to find the bottleneck in my network.
 
+**Thoughts:** There really should be a tool for searching and identifying network file transfer bottlenecks. Maybe there is. If so I am either unaware or unable to afford it. 
 
-**Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good. 
+### R1D8
+**Today's Progress:** Learned how to setup and run the rsync daemon for file transfers over the network and added in a bit to the backup script for creating backups to the raid over the network automatically.
+
+**Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good.
