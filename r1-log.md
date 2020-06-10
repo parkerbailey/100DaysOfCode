@@ -45,6 +45,6 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good.
 
 ### R1D9
-**Today's Progress:**
+**Today's Progress:** More code added to the backup script. It is almost working aside from the remote connection still requesting a password.
 
-**Thoughts:**
+**Thoughts:** I need to get this backup script working so that I don't lose any data in the event of some hardware failure. It's getting close though so that's good. 
