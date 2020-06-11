@@ -5,7 +5,7 @@
 # variable definitions
 dest=/mnt/raid/backups/				# set destination for backup directory creation
 server=192.168.86.74				# set server ip
-clients=(192.168.86.75 192.168.86.125)		# set client ip(s) (space-seperated)
+clients=(192.168.86.75)				# set client ip(s) (space-seperated)
 mod=raid					# set rsync daemon module name
 
 # color definitions
