@@ -45,6 +45,11 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Thoughts:** I'm pretty happy with my backup script. It has a few bugs and can probably be simplified a bit, but the parts that are working are good.
 
 ### R1D9
-**Today's Progress:**
+**Today's Progress:** Gotta admit, got nothing done today. Time got away from me and I have no excuses. Adding a day on to the end. 
 
-**Thoughts:**
+**Thoughts:** This sucks. Sometimes I really wish there were more hours in a day. 
+
+### R1D10
+**Today's Progress:** Today was better. I caught up on some javascript and finished the basic lessons. Learned about integer parsing and base conversions. I also learned that you can condense if statements into single lines with the conditional (ternary) operator and that recursion can sometimes make no sense. 
+
+**Thoughts:** I'm glad I got the first Javascript lesson done. If I can do that in only ten days then things are looking good for the future! Recursion is not my friend at the moment. Things aren't sitting well there but it should straighten out with time. 
