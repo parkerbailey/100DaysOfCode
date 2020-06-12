@@ -1,6 +1,6 @@
 # #100DaysOfCode Log - Round 1 - Parker Bailey
 
-The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
+The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 
 ## Log
 
@@ -50,6 +50,16 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Sunday, 2020].
 **Thoughts:** This sucks. Sometimes I really wish there were more hours in a day. 
 
 ### R1D10
+**Today's Progress:** More code added to the backup script. It is almost working aside from the remote connection still requesting a password.
+
+**Thoughts:** I need to get this backup script working so that I don't lose any data in the event of some hardware failure. It's getting close though so that's good. 
+
+### R1D11
 **Today's Progress:** Today was better. I caught up on some javascript and finished the basic lessons. Learned about integer parsing and base conversions. I also learned that you can condense if statements into single lines with the conditional (ternary) operator and that recursion can sometimes make no sense. 
 
-**Thoughts:** I'm glad I got the first Javascript lesson done. If I can do that in only ten days then things are looking good for the future! Recursion is not my friend at the moment. Things aren't sitting well there but it should straighten out with time. 
+**Thoughts:** I'm glad I got the first Javascript lesson done. If I can do that in less than two weeks then things are looking good for the future! Recursion is not my friend at the moment. Things aren't sitting well there but it should straighten out with time. 
+
+## R1D12
+**Today's Progress:**
+
+**Thoughts:**
