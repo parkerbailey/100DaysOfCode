@@ -60,6 +60,6 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 **Thoughts:** I'm glad I got the first Javascript lesson done. If I can do that in less than two weeks then things are looking good for the future! Recursion is not my friend at the moment. Things aren't sitting well there but it should straighten out with time. 
 
 ## R1D12
-**Today's Progress:**
+**Today's Progress:** Started ES6 training. Learned a lot of new things about things that have been changed/improved. 
 
-**Thoughts:**
+**Thoughts:** It's a bit concerning knowing that I am learning a dynamic language that could change completely after I learn it causing me to need to relearn it or worse, a new language entirely. It is cool that things can improve and work better though. 
