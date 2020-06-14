@@ -59,7 +59,12 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 
 **Thoughts:** I'm glad I got the first Javascript lesson done. If I can do that in less than two weeks then things are looking good for the future! Recursion is not my friend at the moment. Things aren't sitting well there but it should straighten out with time. 
 
-## R1D12
+### R1D12
 **Today's Progress:** Started ES6 training. Learned a lot of new things about things that have been changed/improved. 
 
 **Thoughts:** It's a bit concerning knowing that I am learning a dynamic language that could change completely after I learn it causing me to need to relearn it or worse, a new language entirely. It is cool that things can improve and work better though. 
+
+### R1D13
+**Today's Progress:** Learned more destructuring techniques like array slicing and the rest parameter as well as string literals and that for class naming syntax uses upper camelcase.
+
+**Thoughts:** I'm getting more to the point where I feel confident I understand what I'm doing.It helped that string literals use a variable declaration method similar to that in bash strings. 
