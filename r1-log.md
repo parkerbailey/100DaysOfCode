@@ -68,3 +68,8 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 **Today's Progress:** Learned more destructuring techniques like array slicing and the rest parameter as well as string literals and that for class naming syntax uses upper camelcase.
 
 **Thoughts:** I'm getting more to the point where I feel confident I understand what I'm doing.It helped that string literals use a variable declaration method similar to that in bash strings. 
+
+### R1D14
+**Today's Progress:** Graduated from college today. BSE in Mechanical Engineering. Also finished the ES6 javascript tutorials. 
+
+**Thoughts:** The additions to JS are in ES6 are obviously very useful so that's an encouraging sign. With some languages it's hard to tell what in the world some new changes are supposed to do. 
