@@ -73,3 +73,8 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 **Today's Progress:** Graduated from college today. BSE in Mechanical Engineering. Also finished the ES6 javascript tutorials. 
 
 **Thoughts:** The additions to JS are in ES6 are obviously very useful so that's an encouraging sign. With some languages it's hard to tell what in the world some new changes are supposed to do. 
+
+### R1D15
+**Today's Progress:** Learned about regexes for string searching and pattern matching. 
+
+**Thoughts:** Today was long but we made it through. Slow and steady wins the race. 
