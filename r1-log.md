@@ -78,3 +78,8 @@ The log of my #100DaysOfCode challenge. Started on [June 1, Monday, 2020].
 **Today's Progress:** Learned about regexes for string searching and pattern matching. 
 
 **Thoughts:** Today was long but we made it through. Slow and steady wins the race. 
+
+### R1D16
+**Today's Progress:** Did more work on the regex lessons. 
+
+**Thoughts:** This stuff gets messy and I really am not keen to it. I would much prefer a different method of string checking. This is not clean and it certainly has the potential to be much cleaner. 
