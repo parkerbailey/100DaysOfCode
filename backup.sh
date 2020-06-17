@@ -2,10 +2,10 @@
 # Author:	Parker Bailey
 # Version:	1.0
 
-dest=/mnt/raid/backups/			# set destination for backup directory creation
-server=192.168.86.74			# set server ip
-clients=(192.168.86.75)			# set client ip(s)
-mod=raid				# set rsync daemon module name
+dest=/mnt/raid/backups/				# set destination for backup directory creation
+server=192.168.86.74				# set server ip
+clients=(192.168.86.75 192.168.86.122)		# set client ip(s) (space-seperated)
+mod=raid					# set rsync daemon module name
 
 ## New Code ##
 # Plan: 	run backup script only server side. Client data will be pulled if online.
