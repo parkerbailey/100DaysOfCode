@@ -9,12 +9,11 @@ mod=raid				# set rsync daemon module name
 
 ## New Code ##
 # Plan: 	run backup script only server side. Client data will be pulled if online.
-# To-do:	* check if volumes are mounted
-#		* check if server backup directory exists (create if no)
-#		* backup server (rsync)
 #		* check if client backup directory exists (create if no)
 #		* backup client (rsync daemon pull)
 
+## server backup
+echo "Initializing local server backup"
 # check if parent directory exists
 if [ ! -d $dest ]; then
         echo "Parent directory not found on local machine. Ensure volume is properly mounted."
@@ -31,24 +30,12 @@ else
 
 fi
 
-## Old Code ##
-# check if destination exists
-if [ ! -d $dest ]; then
-	if [ $HOSTNAME = "RAIDNAS1" ]; then
-		echo "Destination not found on local machine. Ensure volume is properly mounted."
-		exit 1
+## client backup
+for ip in ${clients[@]}; do
+	# checking online status
+	if ping -c 1 $ip; then
+		echo "Client at $ip is online. Initializing backup. . ."
+	else
+		echo "Client offline. No backup created for $ip."
 	fi
-	echo "Destination not found on local machine. Trying external."
-	ping -c 1 $host
-	if [ $? -eq 0 ]; then
-		echo "Host is online. Initiating remote backup."
-		rsync -avzh --stats --progress {/etc,/var,/home} rsync://parker@$host::$mod/backups/$HOSTNAME
-		exit 0
-	fi
-fi
-
-# create destination folder and run backup
-if [ ! -d $dest/$HOSTNAME ]; then
-	mkdir $dest/$HOSTNAME
-fi
-sudo rsync -avzh --stats --progress {/etc,/var,/home} $dest/$HOSTNAME
+done
