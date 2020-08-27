@@ -32,3 +32,11 @@ e.g.
 ## CSS
 
 ## JavaScript
+
+## Python
+### Variables
+Store data in memory for later access
+e.g. `var = <data>`
+supports multiple assignment
+e.g. `a, b, c = 1, 2, 3`
+
