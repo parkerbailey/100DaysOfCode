@@ -56,6 +56,34 @@ e.g.
 >>> a / b
 0.66666
 >>> a % b
-1
+2
 ```
 *Note: in python console, `>>>` denotes user input line and console output is on a line without `>>>` as shown above.*
+
+## Strings
+Text contained within quotation marks.  
+e.g. `str1 = "This is a string"`
+
+**Concatination** is the combination of strings via addition. Concatination uses the `+` to "add" different strings together.  
+e.g.
+```
+>>> firstname = "John"
+>>> lastname = "Smith"
+>>> firstname + " " + lastname
+'John Smith'
+```
+
+*Note: Strings can also be multiplied by integers.*  
+e.g. 
+```
+>>> firstname * 3
+'JohnJohnJohn'
+```
+*Note: String characters are indexed similar to an array.*  
+e.g.
+```
+>>> sentence = "Nice weather we are having today."
+>>> sentence[0]
+'N'
+```
+This is called string **splicing**. Index ranges are denoted with `:` as in `sentence[0:5]`. The final index does not include that character but rather indicates the left-sided end. 
