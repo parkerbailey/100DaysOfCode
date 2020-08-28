@@ -1,34 +1,3 @@
-Coding Notes
-
-# HTML5
-## Anchors
-Creates hyperlink between *source anchor* and *destination anchor*
-e.g. `<a>an anchor</a>`
-Hyperlink reference:    `href=""`
-    # = dead link
-Target:                 `target=""`
-    _blank = opens in new window
-
-## Unordered List
-Creates a bulleted list
-e.g.
-```
-<ul>
-    <li>item 1</li>
-    <li>item 2</li>
-</ul>
-```
-
-## Ordered List
-Creates a numbered list
-e.g.
-```
-<ol>
-    <li>item 1</li>
-    <li>item 2</li>
-</ol>
-```
-
 # Python
 ## Variables
 Store data in memory for later access
@@ -104,5 +73,42 @@ Placeholder list:
 `%d` integers
 
 ## Lists
-An indexed container for an array of data entries.  
-e.g. `list = [a, b, c, d]`
+A mutable indexed container for an array of data entries.  
+e.g. `list = [x, b, c, d]`  
+Mutable means entries can be edited.  
+Given our list defined above, we can    
+**Append:**
+```
+>>> list.append(e, f, g)
+>>> list
+[x, b, c, d, e, f, g]
+```
+**Update:**
+```
+>>> list[0] = a
+>>> list
+[a, b, c, d, e, f, g]
+```
+**Delete:**
+```
+>>> del list[3]
+>>> list
+[a, b, c, e, f, g]
+```
+**Find length:**
+```
+>>> len(list)
+6
+```
+For number lists like `nums = [1, 3, 5, 7, 9]`, we can find   
+**Maximum:**
+```
+>>> max(nums)
+9
+```
+**Minimum:**
+```
+>>> min(nums)
+1
+```
+Many other functions and operations exist for lists. 
