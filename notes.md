@@ -37,11 +37,11 @@ supports multiple assignment
 e.g. `a, b, c = 1, 2, 3`
 
 ## Operators
-Addition (`+`)  
-Subtraction (`-`)  
-Multiplication (`*`)  
-Division (`/`)  
-Modulus (`%`)  
+`+` addition  
+`-` subtraction  
+`*` multiplication  
+`/` division  
+`%` modulus  
 
 e.g.
 ```  
@@ -87,3 +87,22 @@ e.g.
 'N'
 ```
 This is called string **splicing**. Index ranges are denoted with `:` as in `sentence[0:5]`. The final index does not include that character but rather indicates the left-sided end. 
+
+**Placeholders** are placed within strings to act as a value that has yet to be defined but has a known type.  
+e.g. `sentence = "My name is %s"`  
+Here there `%s` is acting as a placeholder for a string. To have something inserted into the placeholder, the variable is to be called in placeholder syntax.  
+e.g. 
+```
+>>> sentence = "My name is %s"
+>>> sentence%(John)
+'My name is John'
+```
+*Note: placeholder syntax supports multiple values seperated by commas as well as predefined variables.*
+
+Placeholder list:  
+`%s` strings  
+`%d` integers
+
+## Lists
+An indexed container for an array of data entries.  
+e.g. `list = [a, b, c, d]`
