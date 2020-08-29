@@ -133,3 +133,11 @@ e.g.
 
 ## Tuples
 ---
+Immutable lists  
+e.g. `tuple = ('red', 'green', 'blue')`
+Tuple values cannot be updated, or deleted once it is created and the tuple cannot be appended to. They do support certain operations, **concatenation**, and **splicing**.
+
+## Conditional Statements
+---
+e.g. 
+```
