@@ -1,11 +1,15 @@
 # Python
+Sources:  
+[Introduction To Python Programming](https://www.udemy.com/course/pythonforbeginnersintro/)
 ## Variables
+---
 Store data in memory for later access
 e.g. `var = <data>`
 supports multiple assignment
 e.g. `a, b, c = 1, 2, 3`
 
 ## Operators
+---
 `+` addition  
 `-` subtraction  
 `*` multiplication  
@@ -30,6 +34,7 @@ e.g.
 *Note: in python console, `>>>` denotes user input line and console output is on a line without `>>>` as shown above.*
 
 ## Strings
+---
 Text contained within quotation marks.  
 e.g. `str1 = "This is a string"`
 
@@ -73,6 +78,7 @@ Placeholder list:
 `%d` integers
 
 ## Lists
+---
 A mutable indexed container for an array of data entries.  
 e.g. `list = [x, b, c, d]`  
 Mutable means entries can be edited.  
@@ -112,3 +118,18 @@ For number lists like `nums = [1, 3, 5, 7, 9]`, we can find
 1
 ```
 Many other functions and operations exist for lists. 
+
+## Dictionaries
+---
+Dictionaries are another type of data structure that hold keys and values for data.  
+e.g. `contacts = {"Steve":4653215655, "Sarah":8446831987}`  
+Accessing elements in a dictionary is similar to lists but instead of returning the value on an entered index, it will return the value on an entered key.  
+e.g.
+```
+>>> contacts["Sarah"]
+8446831987
+```
+*Note: Dictionaries should **not** contain duplicate keys. Python will return the value corresponding only to the last key duplicate key defined and will not recognize others.*  
+
+## Tuples
+---
