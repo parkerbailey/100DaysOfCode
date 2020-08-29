@@ -139,5 +139,34 @@ Tuple values cannot be updated, or deleted once it is created and the tuple cann
 
 ## Conditional Statements
 ---
-e.g. 
+A statement that relies on a condition to be met in order for it to function.  
+**if/else statements:**  
+e.g.
 ```
+>>> if (a > b):
+***     print("a is greater than b")
+*** else:
+***     print("a is not greater than b")
+```
+*Note: `a > b` in the example above is a **conditional statement** which must evaluate to either **true** or **false** in order for the statement to function.*
+
+**Relational operators:**  
+`>` greater than  
+`<` less than  
+`>=` greater than or equal to  
+`<=` less than or equal to
+`==` equals  
+`!=` does not equal  
+
+*Note: conditional statements can support multiple conditions with the `and` and `or` operators.*
+
+e.g.
+```
+>>> if (a > b and c > d):
+***     print("a is greater than b AND c is greater than d)
+*** elif (a > b or c > d):
+***     print("a is greater than b OR c is greater than d)
+*** else:
+*** 	print("a is not greater than b and c is not greater than d)
+```
+*Note: the `elif` line above is short for else if which continues the if/else statement with another intermediate condition.*
