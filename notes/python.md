@@ -79,27 +79,27 @@ Placeholder list:
 
 ## Lists
 ---
-A mutable indexed container for an array of data entries.  
-e.g. `list = [x, b, c, d]`  
+A mutable indexed data structure for an array of data entries.  
+e.g. `list = ['x', 'b', 'c', 'd']`  
 Mutable means entries can be edited.  
 Given our list defined above, we can    
 **Append:**
 ```
->>> list.append(e, f, g)
+>>> list.append('e', 'f', 'g')
 >>> list
-[x, b, c, d, e, f, g]
+['x', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
 **Update:**
 ```
->>> list[0] = a
+>>> list[0] = 'a'
 >>> list
-[a, b, c, d, e, f, g]
+['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
 **Delete:**
 ```
 >>> del list[3]
 >>> list
-[a, b, c, e, f, g]
+['a', 'b', 'c', 'e', 'f', 'g']
 ```
 **Find length:**
 ```
@@ -170,3 +170,31 @@ e.g.
 *** 	print("a is not greater than b and c is not greater than d)
 ```
 *Note: the `elif` line above is short for else if which continues the if/else statement with another intermediate condition.*
+
+## For Loops
+---
+A tool used for iterating over items in data structures.   
+e.g. 
+```
+>>> list = ['a', 'b', 'c', 'd']
+>>> for item in list:
+*** 	print(item)
+***
+a
+b
+c
+d
+```
+*Note: for loops can also be used with a range function to iterate through a range of integers.*  
+e.g. 
+```
+>>> for i in range(0,5)
+*** 	print(i)
+***
+0
+1
+2
+3
+4
+```
+*Note: for loops can be **nested** meaning a for loop can contain another for loop for iterating through multi-dimensional data structures.*
