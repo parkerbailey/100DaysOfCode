@@ -263,3 +263,29 @@ Used within loops to control how they function.
 		5
 	```
 
+## Try & Except
+---
+Tries first part of code, and if failed, goes to the exception case.  
+e.g.
+```
+>>> try:
+*** 	if 1 > 3:
+*** 		print("success")
+*** except:
+*** 	print("failure")
+***
+failure
+```
+
+## Commenting
+---
+For single-line commenting, use `#`  
+For multi-line commenting, use `"""`  
+```
+# this is a single-line comment
+"""
+this is a multi-
+line comment
+"""
+```
+
