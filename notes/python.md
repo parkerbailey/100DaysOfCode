@@ -288,4 +288,37 @@ this is a multi-
 line comment
 """
 ```
+*Note: in the above code block, there are no `>>>` or `***` indicating a script environment and not a console environment*
 
+## Functions
+---
+A block of functional code that can be called back and reused within the script.   
+Synatax: `def function_name(parameters):`  
+e.g.   
+```
+def greeting(name):
+	print("Hello " + name + "!")
+```
+*Note: the above code is only the function **definiton** and will not be executed without being a funtion **call***  
+To call a function, just enter the function name and pass in the necessary parameters as in `greeting("John")`. When the code is run, the function will evaluate and print `Hello John!`.  
+
+### Return statement
+The return statement allows the output of a function to be assigned to a variable.  
+e.g.
+```
+def add(a, b):
+	return(a + b)
+
+sum = add(2, 3)
+```
+The `sum` variable will now use the output of the `add` function as its stored value and can be used in subsequent code.  
+
+*Note: return statements must always be at the end of the function because it functions as a break and will not evaluate any code in the rest of the function.*
+
+## Built-in Functions
+---
+Just a few examples of some functions built-in to python.  
+- `abs()` = absolute value
+- `bool()` = false if zero (or equivalent), true if nonzero
+- `dir()` = prints a list of all possible functions that can be used with the given parameter
+- `help()` = prints help documentation on given function parameter
