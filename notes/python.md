@@ -173,7 +173,7 @@ e.g.
 
 ## For Loops
 ---
-A tool used for iterating over items in data structures.   
+A loop used for iterating over items within a specific list.  
 e.g. 
 ```
 >>> list = ['a', 'b', 'c', 'd']
@@ -198,3 +198,68 @@ e.g.
 4
 ```
 *Note: for loops can be **nested** meaning a for loop can contain another for loop for iterating through multi-dimensional data structures.*
+
+## While Loops
+---
+A type of loop that continue to run until the stated condition evaluates as false.  
+e.g. 
+```
+>>> i = 0
+>>> while i < 5:
+***     print(i)
+***     i = i + 1
+***
+0
+1
+2
+3
+4
+```
+
+## Control statements
+---
+Used within loops to control how they function.  
+- `break` - terminates the loop when executed
+    ```
+        >>> i = 0
+        >>> while i < 5:
+        ***     print(i)
+        ***     if i == 3:
+        *** 		break
+        ***     i = i + 1
+        ***
+        0
+        1
+        2
+        3
+        ```
+- `continue` - continue iteration without executing remaining code
+	```
+        >>> i = 0
+        >>> while i < 5:
+        ***     i = i + 1
+        ***     if i == 3:
+        *** 		continue
+        ***     print(c)
+        ***
+        1
+        2
+        4
+		5
+	```
+- `pass` - acts as a placeholder for future code and does nothing
+	```
+        >>> i = 0
+        >>> while i < 5:
+        ***     i = i + 1
+        ***     if i == 3:
+        *** 		pass
+        ***     print(c)
+        ***
+        1
+        2
+		3
+        4
+		5
+	```
+
