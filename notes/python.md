@@ -322,3 +322,8 @@ Just a few examples of some functions built-in to python.
 - `bool()` = false if zero (or equivalent), true if nonzero
 - `dir()` = prints a list of all possible functions that can be used with the given parameter
 - `help()` = prints help documentation on given function parameter
+- `eval()` = runs string parameter as python code
+- `exec()` = same as `eval()` but for complex, multi-line code
+- `string()` = converts parameter to a string
+- `float()` = converts parameter to a float (decimal)
+- `int()` = converts parameter to an integer
