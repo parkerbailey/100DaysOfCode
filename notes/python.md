@@ -327,3 +327,49 @@ Just a few examples of some functions built-in to python.
 - `string()` = converts parameter to a string
 - `float()` = converts parameter to a float (decimal)
 - `int()` = converts parameter to an integer
+
+## Classes & Objects
+---
+A **class** is broad category of **objects**. An **object** is a specific instance of a **class**.  
+e.g.
+```
+>>> class Person:   # this is the class
+***     pass
+***
+>>> p = Person()    # this is the object
+```
+*Note: `pass` is used here as a filler. Classes can be filled with various function definitions called **methods**.*  
+e.g.
+```
+>>> class Person:
+***     def getName(self):
+***         print("John")
+***     getAge(self):
+***         print("24")
+***
+>>> p = Person()
+>>> p.getName()
+John
+>>> p.getAge()
+24
+```
+*Note: the class methods are always passed the `self` argument which refers the function to the current object.*  
+
+In the above example, the `p` object is hard-coded with the name John and the age 24. To create unique objects, use the `init` method, which is called right when an object is created. The `init` method takes in the parameters passed in and assigns them to the variables in the class.  
+e.g.
+```
+>>> class Person:
+***     def __init__(self, name, age):
+***         self.name = name
+***         self.age = age
+***     def getName(self):
+***         print("Your name is " + self.name)
+***     def getAge(self):
+***         print("Your age is " + self.age)
+***
+>>> p = Person("Bob", "22")
+>>> p.getName()
+Your name is Bob
+>>> p.getAge()
+You age is 22
+```
