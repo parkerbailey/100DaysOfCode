@@ -373,3 +373,46 @@ Your name is Bob
 >>> p.getAge()
 You age is 22
 ```
+
+## Inheritance
+---
+Classes can have subclasses within them. Child classes *inherit* methods from their parents. When the child subclass is to inherit the methods of the parent class, it is initialized as `class Child(Parent):`.  
+e.g.
+```
+>>> class Parent:
+***     def __init__(self):
+*** 		print("This is the parent class")
+*** 	def parentFunction(self):
+***			print("This is the parent function")
+***
+>>> class Child(Parent):
+*** 	def __init__(self):
+*** 		print("This is the child class")
+*** 	def childFunction(self):
+*** 		print("This is the child function")
+***
+>>> c = Child()
+This is the child class
+>>> c.childFunction()
+This is the child function
+>>> c.parentFunction()
+This is the parent function
+```
+*Note: the line `c.parentFunction()` is allowed because the object `c` from child class `Child` has inherited all the methods from the parent class `Parent`.*
+
+If a parent and child class both have the same method, you have to use **overriding methods** to tell Python which to use.  
+e.g. 
+```
+>>> class Parent:
+*** 	def test(self):
+***			print("This is the parent function")
+***
+>>> class Child(Parent):
+*** 	def test(self):
+*** 		print("This is the child function")
+*** 
+>>> c = Child()
+>>> c.test()
+This is the child function
+```
+*Note: The most recently defined function will override the previously defined one(s). THis is called **overriding methods**.*
