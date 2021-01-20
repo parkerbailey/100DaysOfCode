@@ -6,7 +6,6 @@
 
 
 sudo clear			# clears terminal window
-sudo mount /dev/md0 /raid	# mounts raid
 
 #
 # Test whether bash supports arrays.
@@ -151,10 +150,17 @@ function metrics {
 	displayMessage 'RAID...............:' "State: ${state}"
 	displayMessage 'RAID...............:' "Active: ${active}, Working: ${working}, Failed: ${failed}, Spare: ${spare}"
 	if [ $active != $working ]; then
-		displayMessage '...................:' "Rebuild Status: ${rstatus}"
+		displayMessage 'RAID...............:' "Rebuild Status: ${rstatus}"
 	fi
 	if [ $failed != 0 ]; then
-		displayMessage '...................:' "Drive failure! Replace immediately!"
+		displayMessage 'RAID...............:' "Drive failure! Replace immediately!"
+	fi
+	sudo mount /dev/md0 /media &> /dev/null
+	if mount | grep md0 > /dev/null; then
+		mnt=$(mount | grep md0 | awk {'print $3'})
+		displayMessage 'RAID...............:' "Raid succesfully mounted on ${mnt}"
+	else
+		displayMessage 'RAID...............:' "Raid failed to mount"
 	fi
 	;;
     'LOADAVERAGE')
