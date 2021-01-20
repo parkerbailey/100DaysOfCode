@@ -4,8 +4,9 @@
 # Thank you to whoever originally built this script, your code is nice
 #  - Parker Bailey
 
-sudo clear
-# clear
+
+sudo clear			# clears terminal window
+sudo mount /dev/md0 /raid	# mounts raid
 
 #
 # Test whether bash supports arrays.
