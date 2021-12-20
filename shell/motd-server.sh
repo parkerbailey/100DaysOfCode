@@ -4,8 +4,8 @@
 # Thank you to whoever originally built this script, your code is nice
 #  - Parker Bailey
 
-
-sudo clear			# clears terminal window
+sudo clear					# clears terminal window
+sudo mount /dev/md0 /mnt/md0 &> /dev/null	# mounts raid array and pipes output ot null
 
 #
 # Test whether bash supports arrays.
@@ -34,14 +34,14 @@ settings=(
     IP
     WEATHER
     CPUTEMP
-    GPUTEMP
+#    GPUTEMP
     SSHLOGINS
     LASTLOGIN
 #    MESSAGES
 )
 
 # Accuweather location codes: https://github.com/SixBytesUnder/custom-motd/blob/master/accuweather_location_codes.txt
-weatherCode="NAM|US|WA|SPOKANE"
+weatherCode="NAM|US|WA|VANCOUVER"
 
 # Show temperatures in "C" for Celsius or "F" for Fahrenheit
 degrees=F
@@ -155,12 +155,11 @@ function metrics {
 	if [ $failed != 0 ]; then
 		displayMessage 'RAID...............:' "Drive failure! Replace immediately!"
 	fi
-	sudo mount /dev/md0 /media &> /dev/null
 	if mount | grep md0 > /dev/null; then
 		mnt=$(mount | grep md0 | awk {'print $3'})
-		displayMessage 'RAID...............:' "Raid succesfully mounted on ${mnt}"
+		displayMessage 'RAID...............:' "RAID succesfully mounted on ${mnt}"
 	else
-		displayMessage 'RAID...............:' "Raid failed to mount"
+		displayMessage 'RAID...............:' "RAID failed to mount"
 	fi
 	;;
     'LOADAVERAGE')
